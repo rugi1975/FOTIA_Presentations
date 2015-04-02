@@ -11,12 +11,12 @@
 \usepackage{subcaption}
 
 
-\author{Arindam Basu \\ Ion Accelerator Developement Division\\ BARC}
-\title{Folded Tandem Ion Accelerator(FOTIA)\\ Overview Operational and Safety Aspects}
+\author{Arindam Basu \\ Ion Accelerator Developement Division\\ arindam@barc.gov.in}
+\title{Folded Tandem Ion Accelerator(FOTIA)\\ Overview of Operational and Safety Aspects}
 %\setbeamercovered{transparent} 
 %\setbeamertemplate{navigation symbols}{} 
-%\logo{} 
-%institute{BARC} 
+\logo{barc.jpg} 
+\institute{BARC} 
 %\date{} 
 %\subject{} 
 \begin{document}
@@ -65,7 +65,7 @@
 
   \begin{itemize}
    
-    \item \textbf{Max Voltage} 6 Mv.
+    \item \textbf{Max Voltage} 6 Million Volt.
     \item \textbf{Voltage Stability} $\underline{+} 2 kV $.
     \item \textbf{Ions} Positively charged ions with $\dfrac{mE}{q^2}   \leqslant 42$.
     \item \textbf{Max Energy} 1 to 5 Mev for Proton , for heavy ions (n+1)V where n is the charge state and V is the terminal voltage.
@@ -97,6 +97,7 @@
     \item $SF_{6}$ gas handling system.
     \item Vacuum system.
     \item Control and instrumentation system.
+    \item Engineering Services.
    \end{itemize}
 
 \end{frame}
@@ -104,19 +105,34 @@
 % new Slide
 \begin{frame}{FOTIA Subsystems-Ion Source}
 
-   \begin{center}
-    \includegraphics[scale=0.1]{SNICS.jpg}
-   \end{center}
-  
+   \begin{figure}
+        \centering
+        \begin{subfigure}[b]{0.25\textwidth}
+                \includegraphics[width=\textwidth]{small_snics_schematic.jpg}
+                \caption{Schematic}
+                \label{fig:Schematic}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.2\textwidth}
+                \includegraphics[width=\textwidth]{SNICS.jpg}
+                \caption{SNICS}
+                \label{fig:SNICS Source}
+        \end{subfigure}%
+        \end{figure}
+   
+   %\begin{center}
+   			% \includegraphics[scale=0.1]{SNICS.jpg}
+         %\end{center}
    
   \begin{itemize}
    
-    \item FOTIA uses Source of Negative Ion by Caesium Sputtering \textbf{(SNICS)} as its ion source.
-    \item \textbf{SNICS} generate negative ions by means of Caesium sputtering.
-    \item Sample is put on the cathode stem.
-    \item Positive extraction voltage is used to extract negative ion beams.
-    \item Amount of beam current is dependent on the filament current and cathode voltage.
-    \item Ion source must be kept under $10^{-7}$ mbar order of vacuum to protect Caesium.
+    \item FOTIA uses Source of Negative Ion by Caesium Sputtering \textbf{(SNICS)} as its ion source.\\
+    
+   		
+    \item \textbf{SNICS} generate negative ions by means of Caesium sputtering.Sample is put on the cathode stem.
+    
+    \item Positive voltage is used to extract negative ion beams.
+    \item Beam current is function of filament current \& cathode voltage.
+    \item Must be kept under $10^{-7}$ mbar order of vacuum to protect Caesium.
    
    \end{itemize}
 
@@ -125,13 +141,17 @@
 
 \begin{frame}{FOTIA Subsystems-Bending \& Focusing Devices:Electrostatic Devices}
 
-  \begin{itemize}
-   
-   
+ 
+ 
+  \begin{itemize} 
     \item Beam can be focused and bend with electrostatic devices.
     \item Accelerating section pre accelerate the beam after ion source.%High voltage power supply is used to setup pre acceleration voltage.
     \item FOTIA has electrostatic deflector which deflects the beam by $20^0$ in its path .
-    \item FOTIA has a electrostatic quadrupole triplet to focus the beam.
+    \item FOTIA has a electrostatic quadrupole triplet to focus the beam.\\
+      \begin{center}
+    \includegraphics[scale=0.25]{eqt.jpg}
+   \end{center}
+    
     \item Accelerating tubes accelerate and focuses the beam.
     
    \end{itemize}
@@ -156,11 +176,15 @@
 
 \begin{frame}{FOTIA Subsystems-Bending and Focusing devices:Quadrupole Magnets}
 
+   \begin{center}
+    \includegraphics[scale=0.07]{mqt.jpg}
+   \end{center}
+ 
   \begin{itemize}
  
-    \item Quadrupole magnets are used to focus the ion beam. In general quadrupole magnets are used as triplet to focus the beam on both plane.
-    \item There are four quadrupole magnets in each beam line of FOTIA.  
-    \item Quadrupole magnets are essential to deliver right size of the beam at the target. 
+    \item MAgnetic Quadrupole Triplet(MQT) are used to focus the ion beam. 
+    \item FOTIA has a quadrupole magnet in each beam line.  
+    \item MQT are essential to deliver right size of the beam at the target. 
       
    \end{itemize}
 
@@ -355,7 +379,7 @@ FOTIA has five dedicated beam lines to perform five different types of experimen
   
   \begin{itemize}
     
-    \item Proton beam, when fall on the target material ,material  emit different energy x rays according to its composition. 
+    \item Proton beam is allowed to fall on target material.Material  emit different energy x rays according to its composition. 
 	\item Detecting X rays, composition of the material can be determined very accurately.
 		           
    \end{itemize}
@@ -409,7 +433,7 @@ FOTIA has five dedicated beam lines to perform five different types of experimen
      
     
     \item Simulation of neutron damage of stainless steel in reactor by proton beam. 
-	\item Photon Induced Positron Annihilation Spectroscopy (PIPAS).
+	%\item Photon Induced Positron Annihilation Spectroscopy (PIPAS).
 	\item PIXE studies of Gall bladder stones .
 	\item Determination of material composition for Archaeological sample.
 	\item Quadrupole testing for the project X of Fermi lab , USA.          
@@ -419,6 +443,32 @@ FOTIA has five dedicated beam lines to perform five different types of experimen
 
 
 \end{frame}
+
+\begin{frame}{Non DAE users of FOTIA}
+  
+  
+  \begin{itemize}
+     
+    
+    \item Indian Institue of Technology(IIT) Powai. 
+	\item Mumbai University.
+	\item North Easternal University.
+	\item Annamalai University.
+	\item Punjab University.
+	\item SAMEER.
+	\item ISRO.
+	\item DRDO has propsed some experiments. Discussion is going on.          
+    
+   \end{itemize}
+
+
+\end{frame}
+
+
+
+
+
+
 
 \begin{frame}{FOTIA Operational Statistics}
   
@@ -468,7 +518,7 @@ Human safety involves the safe working condition for
  \item Radiation 
  \item General Industrial Safety.
 \end{itemize}		
-To ensure human safety three strategies are followed. 
+To ensure human safety following strategies are taken: 
 \begin{itemize}
 \item Training of the personnel.
 \item Audio Visual alarm and deterrent notices such as "No Entry" etc .
@@ -499,6 +549,8 @@ To ensure human safety three strategies are followed.
 
  \begin{itemize} 
  \item Personnel are required to wear helmet and safety shoes when they are working in the accelerator room.
+ \item Personnel are required to wear ear plug in high noise area such as compressor room.
+ \item Personnel are required to wear eye protection and gloves when dealing with liquid nitrogen.
  \item All high pressure area are marked with DANGER notice. Pressure value of accelerator and storage tank are always monitored.
  \item Pressure  Release Safety valve of compressors are set at 10\% above the working pressure and well below the design limit.
  \item Heavy objects, such as gas cylinders etc. are tied securely with the chain. 
@@ -511,11 +563,10 @@ To ensure human safety three strategies are followed.
 \begin{frame}{Human Safety- Radiation}
 Though radiation level in FOTIA is minimal but no lapses are allowed dealing with radiation related issues.
 \begin{itemize} 
- \item All the radiation area are marked and DANGER notices are  displayed.
- \item Gamma monitors and Neutron detectors continous monitor the radiation level.An audio visual alarm is automatically generated if radiation detectors pick up radiation above the permissible limit.
- \item During accelerator operation, the radiation level is monitored periodically by health physicist. 
+ \item Radiation areas are marked and DANGER notices are  displayed.
+ \item Gamma monitors and Neutron detectors continously monitor the radiation level.An audio visual alarm is automatically generated if radiation detectors pick up radiation above the permissible limit.
+ \item During accelerator operation, the radiation level is monitored periodically by health physicist and logged in logbook. 
  \item Personnel must wear the TLD and fast neutron badges.
- 
  \item FOTIA employs search and secure interlock system to ensure that no person can be trapped in the accelerator room or beam hall during accelerator operation and receive high radiation dose. 
 \end{itemize}		
 	 
@@ -527,15 +578,15 @@ Though radiation level in FOTIA is minimal but no lapses are allowed dealing wit
 
 \begin{enumerate} 
  \item \textbf{Fire and Chemical safety:}
-  Adequate  smoke detectors are installed  throughout the building. In case of smoke or fire audio alarm is generated and visual indication is available at fire alarm pane to identify the troubled zone
+  Adequate  smoke detectors are installed  throughout the building. In case of smoke or fire audio alarm is generated and visual indication   at fire alarm pane identify the troubled zone.
  \item \textbf{Safety against Inflammable material:}
- During sample change or Caesium loading, inert atmosphere of Argon gas is maintained and personnel are required to wear the proper safety gadgets while handling Caesium.
+ During sample change or Caesium loading, inert atmosphere of Argon gas is maintained and personnel are required to wear the proper safety gadgets such as hand glove and safety goggle while handling Caesium.
  \item \textbf{$SF_6$ leakage:}
- $SF_6$ monitors and Oxygen deficiency monitors are provided. In case of $SF_6$  leak audio / visual alarm is generated and if oxygen level falls below 19.0 \%,  building  will be evacuated.
+ $SF_6$ monitors and Oxygen deficiency monitors are provided. In case of $SF_6$  leak audio-visual alarm is generated.\\
+  If oxygen level falls below 19.0 \%,  emergengy evacuation from building alarm is generated.
 \item \textbf{General industrial safety:}
 Protective helmets, Protective gloves, safety belts and safety shoes are available for use if required.
 \end{enumerate}		
-	 
  
 \end{frame}
 
@@ -546,7 +597,7 @@ Safety Interlocks are provided to ensure automatic operation during fault condit
  \item \textbf{PLC based:}
   \begin{itemize}
   \item  Charging chain  motor, Rotating shaft motor
-  \item  $SF_6$  Compressor, Blower, Rotary pump
+  \item  $SF_6$  Compressor, Blower, Rotary pump.
   \item  $SF_6$  Monitors, Oxygen deficiency Monitors, Radiation Monitors
   \item  Rouging pumps, Ion pumps, Isolation valves 
   \end{itemize} 
@@ -564,7 +615,7 @@ Safety Interlocks are provided to ensure automatic operation during fault condit
 \end{frame}
 
 \begin{frame}{Safety motto of FOTIA}
-FOTIA team believe in following two dictum
+FOTIA team believes in following two dictums
 \begin{itemize}
 \item Know safety, no injury.\\
      No safety, know injury. \\
@@ -572,7 +623,7 @@ FOTIA team believe in following two dictum
 \item \textbf{Safety is a mission not an intermission.} 
 \end{itemize} 
 
-FOTIA staffs know safety. As a result FOTIA till today has never faced pain of any injury or equipment damage.\\
+FOTIA staff know safety. As a result FOTIA,till today, has never faced pain of any injury or equipment damage.\\
 Since safety is a mission 
 \begin{itemize}
 \item 	All the sensors, safety equipments, interlock systems are periodically tested and maintained.
@@ -600,13 +651,13 @@ Since safety is a mission
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Conclusions}
+\begin{frame}{Invitation}
  \textbf{The FOTIA team invite all possible users from BARC and outside research community to make use of both the facilities which is delivering variety of ion beams for research within BARC premises.}\\
  
  
 \end{frame}
 
-\begin{frame}{Acknowledgement}
+\begin{frame}{Acknowledgements}
  My sincere thanks to 
  
  
